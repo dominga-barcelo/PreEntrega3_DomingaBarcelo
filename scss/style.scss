@@ -1,22 +1,31 @@
 /* font-family: 'Montserrat', sans-serif; */
 // No se necesita ninguna modificación en esta línea
-
+$font-stack: "montserrat", sans-serif;
+$primary-color: #E2A8A3;
+$btn-color: #DED5D4;
 * {
 	margin: 0;
 	padding: 0;
 	text-decoration: none;
 	list-style-type: none;
 }
-.nombre {
-	background-color: pink;
+.domi-fondo{
+	background-color:#DED5D4;
+
 }
-.footer-diseño {
-	font-family: 'Montserrat', sans-serif;
-	font-size: 2px !important;
-	font-weight: lighter;
+.sobremi {
+	margin: 50px 30px 0px 50px;
+	font: montserrat;
+}
+.domi-color{
+	color: black;
+	line-height: 25px;
+}
+
+footer{
 	text-align: center;
-	margin: 70px 0px 20px 0px;
-	text-decoration: none;
+	margin:80px;
+	font: $font-stack;
 }
 
 a:hover {
@@ -53,4 +62,27 @@ a:link {
 	width: 100%;
 	height: 100%;
 	object-fit: cover;
+}
+
+.margen{
+	margin: 60px;
+	background-color: #DED5D4;
+}
+
+.colorboton{
+	background-color: #DED5D4;
+}
+.contactodomi{
+	font-family: $font-stack;
+	background-color: #DED5D4;
+	margin-left: 130px;
+}
+
+.margenes{
+	margin-top: 100px;
+}
+
+.logocontacto{
+margin-top: -170px;
+margin-right: 130px;
 }
