@@ -6,13 +6,28 @@
   list-style-type: none;
 }
 
-.domi-fondo {
-  background-color: #DED5D4;
+.texto-trabajos {
+  font-family: "montserrat", sans-serif;
+  margin-top: 80px;
 }
 
-.sobremi {
-  margin: 50px 30px 0px 50px;
-  font: montserrat;
+h1 {
+  font-size: 20px;
+  margin-top: 30px;
+}
+
+h2 {
+  font-size: 30px;
+}
+
+h5 {
+  font-size: 15px;
+}
+
+.domi-fondo {
+  background-color: #DED5D4;
+  font-family: "montserrat", sans-serif;
+  margin-top: 80px;
 }
 
 .domi-color {
@@ -20,10 +35,18 @@
   line-height: 25px;
 }
 
+.imagenes-trabajos {
+  margin-top: 40px;
+}
+
 footer {
   text-align: center;
   margin: 80px;
   font: "montserrat", sans-serif;
+}
+
+.rounded {
+  margin-top: 10px;
 }
 
 a:hover {
@@ -83,6 +106,5 @@ a:link {
 }
 
 .logocontacto {
-  margin-top: -170px;
   margin-right: 130px;
 }
